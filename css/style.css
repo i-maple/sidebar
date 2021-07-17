@@ -116,6 +116,9 @@ main{
     transform: translateX(-90px);
   }
   .sidebar.active .bx-menu{
-    transform: translateX(98px);
+    transform: translateX(98px) translateY(-60px);
+  }
+  .sidebar.active ~ main{
+    margin-left: 20px;
   }
 }
